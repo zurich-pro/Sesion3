@@ -1,5 +1,57 @@
-.container-header{
+.container-header {
     width: 100%;
     height: 400%;
-    background-color: greenyellow;
+    background-color: burlywood;
 }
+
+.container-section-promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.item-article{
+    width: 30%;
+    height: 100px;
+    background-color: khaki;
+}
+
+.container-body {
+    background-color: rgb(33, 105, 33);
+}
+
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #29acb6;
+}
+
+.publish>p {
+    font-size: 16px;
+    color: #d6c8c8;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish>form {
+    display: flex;
+}
+
+.publish>form p {
+    color: #1eaab4;
+    margin-right: 18px;
+
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
